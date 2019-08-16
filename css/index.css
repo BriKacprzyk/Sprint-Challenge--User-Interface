@@ -208,3 +208,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page*/
+hr{
+    border-top:1px dashed black;
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    width: 46%;
+    margin-left: 5px
+}
+
+.sectionHeader{
+    margin-top: 10px;
+}
+
+.button{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+}
+.bottomP{
+    margin:40px 20px;
+}
