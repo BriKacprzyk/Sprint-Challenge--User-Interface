@@ -236,6 +236,79 @@ hr{
     color: black;
     border-radius: 10px;
 }
+
+.button:hover{
+    opacity: 0.8;
+}
+
 .bottomP{
     margin:40px 20px;
+}
+
+/*Blog Section*/
+
+.blogTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog-section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.difblog{
+    border: 2px dashed black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 47%;
+    margin: 10px;
+    
+}
+
+.blog-img{
+    border-radius: 10px;
+    width: 99%;
+}
+
+/*Contact Section*/
+
+.contactTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactTitle{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+
+/*Thank you Section*/
+
+.Thxheader{
+    margin-top: 20px; 
+    margin-bottom: 200px;
+}
+
+.Thx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-size: 40px;
+}
+
+.thxF{
+    margin-top: 349px;
 }
