@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+.logo{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.nav_item{
+    color: black;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.header{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +128,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;    
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +207,108 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About Page*/
+hr{
+    border-top:1px dashed black;
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    width: 46%;
+    margin-left: 5px
+}
+
+.sectionHeader{
+    margin-top: 10px;
+}
+
+.button{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.bottomP{
+    margin:40px 20px;
+}
+
+/*Blog Section*/
+
+.blogTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog-section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.difblog{
+    border: 2px dashed black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 47%;
+    margin: 10px;
+    
+}
+
+.blog-img{
+    border-radius: 10px;
+    width: 99%;
+}
+
+/*Contact Section*/
+
+.contactTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactTitle{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+
+/*Thank you Section*/
+
+.Thxheader{
+    margin-top: 20px; 
+    margin-bottom: 200px;
+}
+
+.Thx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-size: 40px;
+}
+
+.thxF{
+    margin-top: 349px;
 }
